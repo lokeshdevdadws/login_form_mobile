@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="iphones">
+  <div class="iphone">
+    <header class="header">
+      <a href="indexpage_2.html" class="button button--small">
+       <!-- <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <use xlink:href="#icon-arrow-left" />
+        </svg>-->
+        <i class="icon bi bi-chevron-left"></i>
+      </a>
+      <h1>Sign up</h1>
+    </header>
+
+    <main class="main">
+     
+
+      <form class="form" action="#">
+        <div class="form__field">
+          <label class="form__label" for="name">Name</label>
+          <input id="name" class="form__input" name="name" type="text" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form__field">
+          <label class="form__label" for="email">Email</label>
+          <input id="email" class="form__input" name="email" type="email" placeholder="Enter your email address" required />
+        </div>
+
+        <div class="form__field">
+          <label class="form__label" for="password">Password</label>
+          <input id="password" class="form__input" name="password" type="password" placeholder="Enter your password" required />
+        </div>
+
+        <div class="form__field">
+          <button class="button button--full button--second" type="submit">
+            Create Account
+          </button>
+        </div>
+      </form>
+
+      <div class="text--center mt-2">
+        <p>Already have an account? <a href="indexpage_2.html">Log in</a></p>
+      </div>
+      
+       <div>
+         <p class="text--center sign-text">Or Sign in with </p>
+
+        <ul class="buttons">
+         <li>
+            <a class="button" href="#">
+            <i class="icon bx bxl-google-plus"></i>
+            </a>
+          </li>
+            <li>
+            <a class="button " href="#">
+             <i class="icon bx bxl-facebook"></i>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="button" href="#">
+              <i class="icon bx bxl-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+       <div class="text--center">
+        <p>by signing up you agree to our <span>Terms</span> and <span>Condituons of Use</span> </p>
+      </div>
+      
+    </main>
+  </div>
+
+ 
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="iphones">
+  
+
+  <div class="iphone">
+    <header class="header">
+      <a href="index.html" class="button button--small">
+        <i class="icon bi bi-chevron-left"></i>
+      </a>
+      <h1 class="text--center">Log in</h1>
+    </header>
+
+    <main class="main">
+     
+
+      <form class="form" action="#">
+        <div class="form__field">
+          <label class="form__label" for="email">Email</label>
+          <input id="email" class="form__input" name="email" type="email" placeholder="Enter your email address" required />
+        </div>
+
+        <div class="form__field">
+          <label class="form__label" for="password">Password</label>
+          <input id="password" class="form__input" name="password" type="password" placeholder="Enter your password" required />
+        </div>
+
+        <div class="form__field">
+          <button class="button button--full button--second" type="submit" required>Log in</button>
+        </div>
+      </form>
+
+      <div class="text--center mt-2">
+        <p>Don't have an account? <a href="index.html">Sign up</a></p>
+      </div>
+      
+       <div>
+        <p class="text--center description">Or Sign in with </p>
+
+        <ul class="buttons">
+          <li>
+            <a class="button" href="#">
+            <i class="icon bx bxl-google-plus"></i>
+            </a>
+          </li>
+            <li>
+            <a class="button " href="#">
+             <i class="icon bx bxl-facebook"></i>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="button" href="#">
+              <i class="icon bx bxl-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+       <div class="text--center">
+        <p class="bottom-text">by signing up you agree to our <span>Terms</span> and <span>Condituons of Use</span> </p>
+      </div>
+      
+    </main>
+  </div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <symbol id="icon-apple" viewBox="0 0 24 24">
+    <path d="M22 17.607c-.786 2.28-3.139 6.317-5.563 6.361-1.608.031-2.125-.953-3.963-.953-1.837 0-2.412.923-3.932.983-2.572.099-6.542-5.827-6.542-10.995 0-4.747 3.308-7.1 6.198-7.143 1.55-.028 3.014 1.045 3.959 1.045.949 0 2.727-1.29 4.596-1.101.782.033 2.979.315 4.389 2.377-3.741 2.442-3.158 7.549.858 9.426zm-5.222-17.607c-2.826.114-5.132 3.079-4.81 5.531 2.612.203 5.118-2.725 4.81-5.531z"></path>
+  </symbol>
+
+  <symbol id="icon-google" viewBox="0 0 24 24">
+    <path d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z" fill-rule="evenodd" clip-rule="evenodd"></path>
+  </symbol>
+
+  <symbol id="icon-arrow-left" viewBox="0 0 24 24">
+    <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
+  </symbol>
+</svg>
+</body>
+</html>
